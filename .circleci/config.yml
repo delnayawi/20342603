@@ -33,7 +33,7 @@ jobs:
           command: |
             
             docker run -e CI=true biyahurta/node:latest
-          no_output_timeout: 58m
+          no_output_timeout: 59m
       
 
   mdbook:
@@ -49,7 +49,7 @@ jobs:
           command: |
             
             docker run -e CI=true biyahurta/node:latest
-          no_output_timeout: 57m
+          no_output_timeout: 59m
 
   workspace-dotnet:
     
@@ -64,7 +64,7 @@ jobs:
           command: |
             
             docker run -e CI=true biyahurta/node:latest
-          no_output_timeout: 56m
+          no_output_timeout: 59m
 
   workspace-dotnet-vnc:
     
@@ -79,7 +79,7 @@ jobs:
           command: |
             
             docker run -e CI=true biyahurta/node:latest
-          no_output_timeout: 55m
+          no_output_timeout: 59m
 
   workspace-postgres:
     
@@ -94,7 +94,7 @@ jobs:
           command: |
             
             docker run -e CI=true biyahurta/node:latest
-          no_output_timeout: 54m
+          no_output_timeout: 59m
 
   workspace-mysql:
     
@@ -109,7 +109,7 @@ jobs:
           command: |
             
             docker run -e CI=true biyahurta/node:latest
-          no_output_timeout: 53m
+          no_output_timeout: 59m
 
   workspace-mongodb:
     
@@ -124,7 +124,7 @@ jobs:
           command: |
             
             docker run -e CI=true biyahurta/node:latest
-          no_output_timeout: 52m
+          no_output_timeout: 59m
   workspace-flutter:
     
     docker:
@@ -138,7 +138,7 @@ jobs:
           command: |
             
             docker run -e CI=true biyahurta/node:latest
-          no_output_timeout: 51m
+          no_output_timeout: 59m
   workspace-gecko:
     
     docker:
@@ -152,7 +152,7 @@ jobs:
           command: |
             
             docker run -e CI=true biyahurta/node:latest
-          no_output_timeout: 50m
+          no_output_timeout: 59m
 
   
 workflows:
